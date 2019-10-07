@@ -19,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+# This function checks whether if the "matrix" object has a cached inversion
+# if it doesn't, it calculates and stores it
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   i <- x$getinv()
